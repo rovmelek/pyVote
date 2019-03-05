@@ -11,7 +11,7 @@ if __name__ == "__main__":
     options.add_argument('--headless')
     # driver = webdriver.Chrome(options=options)
     driver = webdriver.Chrome(options=options)
-    driver.get('https://www.nba.com/blazers/assist')
+    driver.get('<your url here>')
 
     first_name = driver.find_element_by_id("FirstName")
     last_name = driver.find_element_by_id("LastName")
