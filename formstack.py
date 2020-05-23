@@ -34,8 +34,6 @@ if __name__ == "__main__":
 
     phoneDiv = driver.find_element_by_css_selector("div[fs-field-validation-name*=Phone]")
     phone = phoneDiv.find_element_by_css_selector("input[type=tel]")
-    # email = driver.find_element_by_id("Email")
-    # postal_code = driver.find_element_by_id("PostalCode")
 
     first_name.send_keys("John")
     last_name.send_keys("Doe")
