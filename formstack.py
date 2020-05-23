@@ -46,9 +46,6 @@ if __name__ == "__main__":
     zip.send_keys("99530")
     phone.send_keys("9512623062")
 
-
-    # postal_code.send_keys("97814")
-
     # option1RadioBtn = driver.find_element_by_id("field93011629_1")
     # option1RadioBtn.click()
     # driver.find_element_by_css_selector("input[type='radio'][name='field93011629'][value='Option1']").click()
